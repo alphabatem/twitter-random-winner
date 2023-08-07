@@ -3,16 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "preinstall": "yarn config set ignore-engines true",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@popperjs/core": "^2.10.1",
-    "@project-serum/anchor": "^0.25.0-beta.1",
-    "@solana/buffer-layout": "^4.0.1",
-    "@solana/spl-token": "^0.3.7",
     "animate.css": "^4.1.1",
     "bn.js": "^5.2.1",
     "bs58": "^5.0.0",
@@ -24,7 +20,6 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "@types/bn.js": "^5.1.1",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "^5.0.8",
@@ -36,12 +31,8 @@
     "@vue/eslint-config-typescript": "^7.0.0",
     "axios": "^0.27.2",
     "babel-eslint": "^10.1.0",
-    "core-js": "^3.6.5",
-    "crypto-browserify": "^3.12.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "sass-loader": "^12.4.0",
-    "stream-browserify": "^3.0.0",
     "typescript": "~4.5.5",
     "vue-cli-plugin-axios": "~0.0.4",
     "vue-template-compiler": "^2.6.11"
