@@ -1,0 +1,70 @@
+html,body {
+	font-family: 'Inter', sans-serif;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,p,span {
+	font-weight: 500;
+	color: #fff;
+}
+
+.card {
+	background: #282828;
+}
+
+.table>:not(:first-child) {
+	border-top: unset;
+	border-color: #222222;
+}
+
+th, td {
+	color: white;
+}
+
+.btn.btn-primary {
+	background: transparent;
+	border: 2px solid white;
+	font-weight: bold;
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+	background: rgba(255,255,255,0.8);
+	color: black;
+}
+
+.table-img {
+	border-radius: 33px;
+	width: 20px;
+}
+
+.profile-img {
+	width: 20px;
+	height: 20px;
+	background: gray;
+}
+
+.table-img-sm {
+	width: 20px;
+}
+
+.table-img-lg {
+	width: 40px;
+}
+
+.link-container a {
+	color: #c6c6c6 !important;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+.link-container a:hover {
+	color: white;
+	filter: invert(100%);
+}
